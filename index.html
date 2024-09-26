@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Cesta Básica - Prato Cheio </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="icon" href="./img/logo.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sec1">
+            <input type="checkbox" aria-label="Close menu" role="button" id="close-menu" class="close-menu">
+    <label for="close-menu" title="close-menu" class="close-menu-label"></label>
+        <nav class="menu">
+            <div class="img-logo">
+                <a href="https://dev-gabriell.github.io/ongPrincipal/"><img src="./Img/Logotipo.png" alt=""></a>
+            </div>
+            <div class="elementos-nav">
+            <ul onclick="getElementById('close-menu').checked = false">
+                <li><a href="https://dev-gabriell.github.io/quemsomos/">Quem Somos</a></li>
+                <li><a href="https://dev-gabriell.github.io/oqfazemos/">O que Fazemos</a></li>
+                <li><a href="https://dev-gabriell.github.io/cestabasica/">Cesta Básica</a></li>
+                <li><a href="https://dev-gabriell.github.io/doacoes/">Doação</a></li>
+                <li><a href="https://dev-gabriell.github.io/contatoOng/">Contato</a></li>
+            </ul>
+        </div>
+            <button class="click-one"><a class="nome" href="https://dev-gabriell.github.io/doacoes/">Apoiar</a></button>
+        </nav>
+        <div class="espaco-menu"></div>
+    <div class="container">
+        <div class="img-fundo">
+            <h1>#CESTA BÁSICA</h1>
+            <div class="p1">
+            <p>Preencha os campos ao lado para solicitar a entrega da sua cesta básica em casa</p></div>
+            <p>Certifique-se de inserir corretamente todas as informações necessárias para que possamos realizar a entrega no endereço informado. Todos os campos são obrigatórios e devem ser preenchidos com atenção:</p>
+            <ul>
+                <li>Nome completo</li>
+                <li>Endereço completo (rua, número, bairro, cidade, estado e CEP)</li>
+                <li>Telefone para contato</li>
+                <li>E-mail válido para acompanhamento</li>
+            </ul>
+        </div>
+        <div class="f1">
+        <form name="form1" method="get" action="">
+            <div class="input-group group2">
+            <input  class="text1" type="text" name="txtTexto" placeholder="Nome" required>
+            <input class="text2" name="txtTexto2" placeholder="Sobrenome" required>
+        </div>
+            <br>
+           <input class="text3" type="text" name="txtTexto3" placeholder="Endereço" required >
+           <br>
+           <div class="input-group group3">
+           <select class="selecao" name="text4" >
+            <option value="op1"> option1 </option>
+            <option value="op1"> option2 </option>
+            <option value="op1"> option3 </option>
+            <option value="op1"> option4 </option>
+            <option value="op1"> option5 </option>
+           </select>
+
+           <input class="text4" type="text" name="txtTexto4" placeholder="Ponto de referência">
+        </div>
+           <br>
+           <br>
+           
+           
+           <input class="text5" type="text" name="txtTexto5" placeholder="Email">
+           <input class="number" type="number" name="txtNumber" placeholder="(DDD) XXXXX-XXXX">
+      
+           <br>
+           <br>
+           <textarea class="text6" name="txtTexto6" placeholder="Mensagem"></textarea>
+           
+           <button class="button" type="submit" id="enviar"> Enviar </button>
+        
+        </form>
+    </div>
+    </div>
+</section>
+    </body>
+    
+</html> 
