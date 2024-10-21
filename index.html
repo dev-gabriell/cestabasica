@@ -49,41 +49,65 @@
                 <li>E-mail válido para acompanhamento</li>
             </ul>
         </div>
-        <div class="f1">
-        <form name="form1" method="get" action="">
-            <div class="input-group group2">
-            <input  class="text1" type="text" name="txtTexto" placeholder="Nome" required>
-            <input class="text2" name="txtTexto2" placeholder="Sobrenome" required>
-        </div>
-            <br>
-           <input class="text3" type="text" name="txtTexto3" placeholder="Endereço" required >
-           <br>
-           <div class="input-group group3">
-           <select class="selecao" name="text4" >
-            <option value="op1"> option1 </option>
-            <option value="op1"> option2 </option>
-            <option value="op1"> option3 </option>
-            <option value="op1"> option4 </option>
-            <option value="op1"> option5 </option>
-           </select>
-
-           <input class="text4" type="text" name="txtTexto4" placeholder="Ponto de referência">
-        </div>
-           <br>
-           <br>
-           
-           
-           <input class="text5" type="text" name="txtTexto5" placeholder="Email">
-           <input class="number" type="number" name="txtNumber" placeholder="(DDD) XXXXX-XXXX">
-      
-           <br>
-           <br>
-           <textarea class="text6" name="txtTexto6" placeholder="Mensagem"></textarea>
-           
-           <button class="button" type="submit" id="enviar"> Enviar </button>
         
-        </form>
-    </div>
+
+
+
+        <div class="meio">
+            <form name="form1" method="get" action="">
+                
+                
+            <div class="input-group group2">
+                
+                <label for="txtTexto"><div><p>Nome:</p>
+                <input  class="text1" id="txtTexto" type="text" name="txtTexto" placeholder="Nome" required></div></label>
+                
+                <label for="txtTexto2"><div><p>Sobrenome:</p>
+                <input class="text2" id="txtTexto2" name="txtTexto2" placeholder="Sobrenome" required></div></label>
+            </div>
+        
+        
+        
+        
+                <br>
+
+                <label for="txtTexto3"><div ><p class="ender">Endereço:</p>
+               <input class="text3" id="txtTexto3" type="text" name="txtTexto3" placeholder="Endereço" required ></div></label>
+               <br>
+               
+               <div class="input-group ">
+               <label for=" selecao"><div ><p class="ender3">Opções:</p>
+               <select class="selecao" id="selecao" name="text4" >
+                <option value="op1"> option1 </option>
+                <option value="op1"> option2 </option>
+                <option value="op1"> option3 </option>
+                <option value="op1"> option4 </option>
+                <option value="op1"> option5 </option>
+               </select></div></label>
+               
+               <label for="txtTexto4"><div ><p class="ender">Ponto de referência:</p>
+               <input class="text4" id="txtTexto4" type="text" name="txtTexto4" placeholder="Ponto de referência"></div></label>
+            </div>
+               <br>
+               <br>
+               
+               <label for="txtTexto5"><div><p class="ender">Email:</p>
+               <input class="text5" type="email" id="txtTexto5" name="txtTexto5" placeholder="Email"></div></label>
+               <div><p class="ender2">Número:</p>
+               <div class="center">
+                
+               <label for="number"><input class="number" type="number" name="txtNumber" placeholder="(DDD) XXXXX-XXXX"></div>
+                </div></label>
+          
+               <br>
+               <br>
+               <div><p class="ender ender4">Mensagem:</p>
+               <textarea class="text6" name="txtTexto6" placeholder="Escreva sobre sua situação atual... "></textarea></div>
+               <div class="center2">
+               <button class="button" type="submit" id="enviar"> Enviar </button>
+               </div>
+            </form>
+        </div>
     </div>
 </section>
     </body>

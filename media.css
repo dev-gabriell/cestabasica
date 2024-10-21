@@ -8,9 +8,10 @@
     }
     .img-fundo{
         width: 100%;
+        height: 500px;
         border-bottom: 5px solid #fff;
     }
-    .f1{
+    .meio{
         width: 100%;
     }
     .txtcont{

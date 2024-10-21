@@ -139,7 +139,7 @@ a{
 
 .img-fundo {
     width: 50%;
-    height: 750px;
+    height: 878px;
     background-image: url(./img/ft-prato.png);
     background-size: cover;
 }
@@ -168,14 +168,6 @@ a{
     text-align: center;
     font-weight: 700;
 }
-.f1 {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    background: linear-gradient(to bottom, #cc6d2d, #47280e);
-}
 .img-fundo ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
@@ -187,121 +179,106 @@ a{
     font-weight: 700;
     text-shadow: 0 0 10px #000;
 }
-form {
-    width: 100%;
+.meio{
+    width: 50%;
+    height: auto;
+    background: rgb(102, 122, 100);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-
-.componentes {
+.input-group p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.ender, .ender2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.ender2{
+    margin-bottom: -5px;
+    margin-left: 0;
+    margin-top: 13px;
+    text-align: center;
+}
+.ender3{
+    margin-top: -10px;
+}
+.ender4{
+    margin-bottom: 10px;
+}
+input{
+    width: 230px;
+    height: 43px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+select{
+    margin-top: 10px;
+    width: 230px;
+    height: 43px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.text3, .text5{
     width: 100%;
-    height: 100%;
-    margin: auto;
 }
-
-/* Ajustes para alinhar os campos */
-.text1, .text2, .selecao, .text4 {
-    width: 48%;
-    font-size: 15px;
-    margin: 1rem 0;
-    padding: 6px;
-    border-radius: 10px;
-    border: none;
-    height: 35px;
-    outline: none;
-}
-.text1:focus,
-.text2:focus,
-.text3:focus,
-.text4:focus, 
-.text5:focus,
-.number:focus
-{
-    box-shadow: 0 0 10px #000;
-}
-.group2{
-    margin-left: 100px;
-}
-.group3{
-    margin-left: 120px;
-}
-.text3, .text5 {
-    width: 75%;
-    font-size: 15px;
-    margin: 1.5rem 0;
-    padding: 8px;
-    border-radius: 10px;
-    border: none;
-    height: 40px;
-    outline: none;
-
-}
-.selecao{
-    height: 50px;
+.center label{
+    display: flex;
+    margin: 5px;
 }
 .number{
-    width: 33%;
-    padding: 7px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.text6{
+    width: 100%;
+    height: 160px;
     border-radius: 10px;
     border: none;
-    height: 40px;
-    outline: none;
+    padding: 6px;
+    font-size: 15px;
+    resize: none;
 }
-.text6 {
-    width: 90%;
-    padding: 8px;
+.center2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 0;
+}
+.button{
+    padding: 12px 75px;
     border-radius: 10px;
-    border: none;
-    height: 150px;
-}
-.text5{
-    width: 75%;
-}
-
-.button {
-    height: 50px;
-    width: 200px;
-    margin-top: 1rem;
-    color: white;
-    background-color: rgb(56, 118, 234);
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-#enviar{
-    font-size: 20px;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 3px;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    background: rgb(71, 179, 94);
     border: 3px solid rgb(71, 179, 94);
+    background: rgb(71, 179, 94);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", sans-serif;
     transition: 0.5s all;
 }
-#enviar:hover{
+.button:hover{
     background: #fff;
     color: #000;
     border: 3px solid rgb(71, 179, 94);
     box-shadow: 0 0 10px rgb(71, 179, 94);
 }
-/* Ajustes para os inputs ficarem lado a lado */
-.input-group {
-    display: flex;
-    width: 90%;
-}
-
-.input-group .text1,
-.input-group .text2,
-.input-group .selecao,
-.input-group .text4,
-.input-group .number {
-    width: 30%;
-    margin: 0 20px;
-}
-
-.input-full {
-    width: 100%;
-}
-
 
