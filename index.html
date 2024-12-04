@@ -28,9 +28,9 @@
             <ul onclick="getElementById('close-menu').checked = false">
                 <li><a href="https://dev-gabriell.github.io/quemsomos/">Quem Somos</a></li>
                 <li><a href="https://dev-gabriell.github.io/oqfazemos/">O que Fazemos</a></li>
-                <li><a href="https://dev-gabriell.github.io/cestabasica/">Cesta Básica</a></li>
-                <li><a href="https://dev-gabriell.github.io/doacoes/">Doação</a></li>
-                <li><a href="https://dev-gabriell.github.io/contatoOng/">Contato</a></li>
+                <li><a href="http://localhost:8080/cesta/index.html">Cesta Básica</a></li>
+                <li><a href="http://localhost:8080/doar/index.html">Doação</a></li>
+                <li><a href="http://localhost:8080/contato/index.html">Contato</a></li>
             </ul>
         </div>
             <button class="click-one"><a class="nome" href="https://dev-gabriell.github.io/doacoes/">Apoiar</a></button>
@@ -54,7 +54,7 @@
 
 
         <div class="meio">
-            <form name="form1" method="get" action="">
+            <form name="form1" method="post" action="cesta.jsp" accept-charset="UTF-8">
                 
                 
             <div class="input-group group2">
@@ -71,20 +71,14 @@
         
                 <br>
 
-                <label for="txtTexto3"><div ><p class="ender">Endereço:</p>
-               <input class="text3" id="txtTexto3" type="text" name="txtTexto3" placeholder="Endereço" required ></div></label>
+                <label for="txtTexto3">
+                <div ><p class="ender">Endereço:</p>
+               <input class="text3" id="txtTexto3" type="text" name="txtTexto3" placeholder="Endereço" required >
+               <input type="text" class="txtn" name="txtn" id="txtn" placeholder="N°"> 
+               </div></label>
                <br>
                
-               <div class="input-group ">
-               <label for=" selecao"><div ><p class="ender3">Opções:</p>
-               <select class="selecao" id="selecao" name="text4" >
-                <option value="op1"> option1 </option>
-                <option value="op1"> option2 </option>
-                <option value="op1"> option3 </option>
-                <option value="op1"> option4 </option>
-                <option value="op1"> option5 </option>
-               </select></div></label>
-               
+               <div class="input-group ">   
                <label for="txtTexto4"><div ><p class="ender">Ponto de referência:</p>
                <input class="text4" id="txtTexto4" type="text" name="txtTexto4" placeholder="Ponto de referência"></div></label>
             </div>
@@ -96,20 +90,21 @@
                <div><p class="ender2">Número:</p>
                <div class="center">
                 
-               <label for="number"><input class="number" type="number" name="txtNumber" placeholder="(DDD) XXXXX-XXXX"></div>
+               <label  for="text"><input class="number" id="num" type="text" name="txtNumber" placeholder="(DDD) XXXXX-XXXX"></div>
                 </div></label>
           
                <br>
                <br>
                <div><p class="ender ender4">Mensagem:</p>
-               <textarea class="text6" name="txtTexto6" placeholder="Escreva sobre sua situação atual... "></textarea></div>
+               <textarea class="text6" id="txtTexto6" name="txtTexto6" placeholder="Escreva sobre sua situação atual... "></textarea></div>
                <div class="center2">
-               <button class="button" type="submit" id="enviar"> Enviar </button>
+               <button class="button" type="button" id="enviar" onclick="validar()"> Enviar </button>
                </div>
             </form>
         </div>
     </div>
 </section>
-    </body>
+ <script src="script.js"></script>    
+</body>
     
 </html> 

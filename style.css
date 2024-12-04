@@ -30,6 +30,7 @@ a{
     margin-left: 50px;
     color: #fff;
     text-shadow: 0 0 10px #1b8d05;
+    background-color: #95c1da;
 }
 .menu{
     display: flex;
@@ -241,6 +242,12 @@ select{
 .text3, .text5{
     width: 100%;
 }
+.text3{
+    width: 70%;
+}
+.txtn{
+    width: 20%;
+}
 .center label{
     display: flex;
     margin: 5px;
@@ -280,5 +287,5 @@ select{
     color: #000;
     border: 3px solid rgb(71, 179, 94);
     box-shadow: 0 0 10px rgb(71, 179, 94);
+    background: #8cff69;
 }
-
